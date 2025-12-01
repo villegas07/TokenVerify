@@ -90,12 +90,12 @@ export class TokenVerificationComponent implements OnInit {
 
   goToApp() {
     // Redirigir a la aplicación principal (externa)
-    window.location.href = 'https://turisapp-colombia.com';
+    window.location.href = 'https://token-verify-beta.vercel.app';
   }
 
   exploreDestinations() {
     // Redirigir a la sección de destinos (externa)
-    window.location.href = 'https://turisapp-colombia.com/destinos';
+    window.location.href = 'https://token-verify-beta.vercel.app/destinos';
   }
   
   getIcon(iconName: string): IconDefinition {
