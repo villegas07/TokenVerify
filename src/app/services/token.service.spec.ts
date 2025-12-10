@@ -14,7 +14,7 @@ import {
 describe('TokenService - Integration Tests', () => {
   let service: TokenService;
   let httpMock: HttpTestingController;
-  const apiUrl = 'https://bald-marie-thumbs-blessed.trycloudflare.com/api';
+  const apiUrl = 'https://api.kuagro.me/';
 
   beforeEach(() => {
     TestBed.configureTestingModule({
